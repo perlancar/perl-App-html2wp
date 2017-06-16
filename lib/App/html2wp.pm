@@ -148,9 +148,9 @@ _
         dry_run => 1,
     },
     links => [
-        {'prog:org2wp'},
-        {'prog:pod2wp'},
-        {'prog:wp-xmlrpc'},
+        {url=>'prog:org2wp'},
+        {url=>'prog:pod2wp'},
+        {url=>'prog:wp-xmlrpc'},
     ],
 };
 sub html2wp {
@@ -337,7 +337,7 @@ sub html2wp {
         $postid = $call->result;
         $html =~ s/^/<meta name="postid" content="$postid">/;
         $log->infof("[api] Inserting POSTID to %s ...", $filename);
-        File::Slurper::write_text($filename, $pod);
+        File::Slurper::write_text($filename, $html);
     }
 
     [200, "OK"];
