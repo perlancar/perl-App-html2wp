@@ -1,11 +1,11 @@
-0.003   2017-07-03 (PERLANCAR)
+0.003   2017-07-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Switch from Log::Any to Log::ger.
 
 
-0.002   2017-06-17 (PERLANCAR)
+0.002   2017-06-17  Released-By: PERLANCAR
 
         - No functional changes.
 
@@ -13,6 +13,6 @@
           in the POD.
 
 
-0.001   2017-06-16 (PERLANCAR)
+0.001   2017-06-16  Released-By: PERLANCAR
 
         - First release.
